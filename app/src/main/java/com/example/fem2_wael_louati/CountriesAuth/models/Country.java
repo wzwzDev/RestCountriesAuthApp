@@ -218,22 +218,16 @@ public class Country {
     public String toString() {
         StringJoiner joiner = new StringJoiner(", ", "Country [", "]");
 
-        joiner.add("name=" + name)
-                .add("tld=" + tld)
-                .add("cca2=" + cca2)
-                .add("capital=" + capital)
-                .add("altSpellings=" + altSpellings)
-                .add("region=" + region)
-                .add("subregion=" + subregion)
-                .add("borders=" + borders)
-                .add("area=" + area)
-                .add("flag=" + flag)
-                .add("maps=" + maps)
-                .add("population=" + population)
-                .add("timezones=" + timezones)
-                .add("flags=" + flags)
-                .add("capitalInfo=" + capitalInfo)
-                .add("postalCode=" + postalCode);
+        joiner.add("name= " + name+"\n")
+
+                .add("capital=" + capital+"\n")
+
+                .add("area=" + area+"\n")
+                .add("flag=" + flag+"\n")
+
+                .add("flags=" + flags+"\n")
+                .add("capitalInfo=" + capitalInfo+"\n");
+
 
         return joiner.toString();
     }

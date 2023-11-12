@@ -8,6 +8,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.fem2_wael_louati.CountriesAuth.Common.CountriesActivity;
+import com.example.fem2_wael_louati.CountriesAuth.Common.CountryActivity;
 import com.example.fem2_wael_louati.CountriesAuth.Common.LoginSignup.RetailerStartUpScreen;
 import com.example.fem2_wael_louati.CountriesAuth.Databases.SessionManager;
 import com.example.fem2_wael_louati.R;
@@ -47,7 +48,7 @@ public class RetailerDashboard extends AppCompatActivity {
 
     }
     public void goToAnotherActivity(View view) {
-        startActivity((new Intent(getApplicationContext(), CountriesActivity.class)));
+        startActivity((new Intent(getApplicationContext(), CountryActivity.class)));
         finish();
     }
     public void logoutTheUserFromSession(View view){
