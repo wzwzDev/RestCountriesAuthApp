@@ -31,6 +31,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.CountryV
             CountryEntity currentCountry = countryEntityList.get(position);
             holder.countryName.setText(currentCountry.getName());
             holder.capitalName.setText(currentCountry.getCapital());
+
             String flagUrl = currentCountry.getFlags();
             if (flagUrl != null) {
                 Picasso.get()
