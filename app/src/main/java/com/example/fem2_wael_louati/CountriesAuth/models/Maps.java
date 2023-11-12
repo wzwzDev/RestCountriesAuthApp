@@ -34,22 +34,9 @@ public class Maps {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(Maps.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
-        sb.append("googleMaps");
-        sb.append("=\"");
-        sb.append(((this.googleMaps == null)?"<null>":this.googleMaps));
-        sb.append("\",");
-        sb.append("openStreetMaps");
-        sb.append("=\"");
-        sb.append(((this.openStreetMaps == null)?"<null>":this.openStreetMaps));
-        sb.append("\",");
-        if (sb.charAt((sb.length()- 1)) == ',') {
-            sb.setCharAt((sb.length()- 1), ']');
-        } else {
-            sb.append(']');
-        }
-        return sb.toString();
+        return "Maps{" +
+                "googleMaps='" + googleMaps + '\'' +
+                ", openStreetMaps='" + openStreetMaps + '\'' +
+                '}';
     }
-
 }

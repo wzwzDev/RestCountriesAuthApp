@@ -34,22 +34,9 @@ public class PostalCode {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(PostalCode.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
-        sb.append("format");
-        sb.append('=');
-        sb.append(((this.format == null)?"<null>":this.format));
-        sb.append(',');
-        sb.append("regex");
-        sb.append('=');
-        sb.append(((this.regex == null)?"<null>":this.regex));
-        sb.append(',');
-        if (sb.charAt((sb.length()- 1)) == ',') {
-            sb.setCharAt((sb.length()- 1), ']');
-        } else {
-            sb.append(']');
-        }
-        return sb.toString();
+        return "PostalCode{" +
+                "format='" + format + '\'' +
+                ", regex='" + regex + '\'' +
+                '}';
     }
-
 }

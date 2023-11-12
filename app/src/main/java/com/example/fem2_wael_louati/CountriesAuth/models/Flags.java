@@ -46,25 +46,10 @@ public class Flags {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(Flags.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
-        sb.append("png");
-        sb.append("=\"");
-        sb.append(((this.png == null)?"<null>":this.png));
-        sb.append("\",");
-        sb.append("svg");
-        sb.append("=\"");
-        sb.append(((this.svg == null)?"<null>":this.svg));
-        sb.append("\",");
-        sb.append("alt");
-        sb.append("=\"");
-        sb.append(((this.alt == null)?"<null>":this.alt));
-        sb.append("\",");
-        if (sb.charAt((sb.length()- 1)) == ',') {
-            sb.setCharAt((sb.length()- 1), ']');
-        } else {
-            sb.append(']');
-        }
-        return sb.toString();
+        return "Flags{" +
+                "png='" + png + '\'' +
+                ", svg='" + svg + '\'' +
+                ", alt='" + alt + '\'' +
+                '}';
     }
 }

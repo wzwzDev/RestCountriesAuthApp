@@ -70,7 +70,7 @@ public class CountriesActivity extends AppCompatActivity {
                     Log.i(LOG_TAG, "Lista: " + countryList);
                     for (Country country : countryList) {
                         tvRespuesta.append(country.toString() + "\n\n");
-                    }
+                                           }
                     Log.i(LOG_TAG, "obtenerInfoPais => respuesta=" + countryList);
                 } else {
                     tvRespuesta.setText(getString(R.string.strError));

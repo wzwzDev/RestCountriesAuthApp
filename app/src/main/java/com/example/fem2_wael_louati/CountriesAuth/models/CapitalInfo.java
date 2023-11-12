@@ -24,18 +24,8 @@ public class CapitalInfo {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(CapitalInfo.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
-        sb.append("latlng");
-        sb.append('=');
-        sb.append(((this.latlng == null)?"<null>":this.latlng));
-        sb.append(',');
-        if (sb.charAt((sb.length()- 1)) == ',') {
-            sb.setCharAt((sb.length()- 1), ']');
-        } else {
-            sb.append(']');
-        }
-        return sb.toString();
+        return "CapitalInfo{" +
+                "latlng=" + latlng +
+                '}';
     }
-
 }

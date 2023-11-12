@@ -4,6 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
+import java.util.StringJoiner;
 
 import javax.annotation.Generated;
 
@@ -78,7 +79,167 @@ public class Country {
     @Expose
     private PostalCode postalCode;
 
+    public Name getName() {
+        return name;
+    }
 
+    public void setName(Name name) {
+        this.name = name;
+    }
+
+    public List<String> getTld() {
+        return tld;
+    }
+
+    public void setTld(List<String> tld) {
+        this.tld = tld;
+    }
+
+    public String getCca2() {
+        return cca2;
+    }
+
+    public void setCca2(String cca2) {
+        this.cca2 = cca2;
+    }
+
+    public List<String> getCapital() {
+        return capital;
+    }
+
+    public void setCapital(List<String> capital) {
+        this.capital = capital;
+    }
+
+    public List<String> getAltSpellings() {
+        return altSpellings;
+    }
+
+    public void setAltSpellings(List<String> altSpellings) {
+        this.altSpellings = altSpellings;
+    }
+
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
+
+    public String getSubregion() {
+        return subregion;
+    }
+
+    public void setSubregion(String subregion) {
+        this.subregion = subregion;
+    }
+
+    public Languages getLanguages() {
+        return languages;
+    }
+
+    public void setLanguages(Languages languages) {
+        this.languages = languages;
+    }
+
+    public List<String> getBorders() {
+        return borders;
+    }
+
+    public void setBorders(List<String> borders) {
+        this.borders = borders;
+    }
+
+    public Double getArea() {
+        return area;
+    }
+
+    public void setArea(Double area) {
+        this.area = area;
+    }
+
+    public String getFlag() {
+        return flag;
+    }
+
+    public void setFlag(String flag) {
+        this.flag = flag;
+    }
+
+    public Maps getMaps() {
+        return maps;
+    }
+
+    public void setMaps(Maps maps) {
+        this.maps = maps;
+    }
+
+    public Integer getPopulation() {
+        return population;
+    }
+
+    public void setPopulation(Integer population) {
+        this.population = population;
+    }
+
+    public List<String> getTimezones() {
+        return timezones;
+    }
+
+    public void setTimezones(List<String> timezones) {
+        this.timezones = timezones;
+    }
+
+    public Flags getFlags() {
+        return flags;
+    }
+
+    public void setFlags(Flags flags) {
+        this.flags = flags;
+    }
+
+    public CapitalInfo getCapitalInfo() {
+        return capitalInfo;
+    }
+
+    public void setCapitalInfo(CapitalInfo capitalInfo) {
+        this.capitalInfo = capitalInfo;
+    }
+
+    public PostalCode getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(PostalCode postalCode) {
+        this.postalCode = postalCode;
+    }
+    @Override
+    public String toString() {
+        StringJoiner joiner = new StringJoiner(", ", "Country [", "]");
+
+        joiner.add("name=" + name)
+                .add("tld=" + tld)
+                .add("cca2=" + cca2)
+                .add("capital=" + capital)
+                .add("altSpellings=" + altSpellings)
+                .add("region=" + region)
+                .add("subregion=" + subregion)
+                .add("borders=" + borders)
+                .add("area=" + area)
+                .add("flag=" + flag)
+                .add("maps=" + maps)
+                .add("population=" + population)
+                .add("timezones=" + timezones)
+                .add("flags=" + flags)
+                .add("capitalInfo=" + capitalInfo)
+                .add("postalCode=" + postalCode);
+
+        return joiner.toString();
+    }
+
+
+/*
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -152,5 +313,5 @@ public class Country {
             sb.append(']');
         }
         return sb.toString();
-    }
+    }*/
 }
