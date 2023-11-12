@@ -104,4 +104,10 @@
     <string name="verify_code">Verify Code</string>
     <string name="todo">TODO</string>
 
+
+    <string name="strError">No se ha recuperado ningún país</string>
+    <string name="btnDescripcion">Botón buscar</string>
+    <string name="tvPaís">País:</string>
+    <string name="hintPaís">Nombre del país</string>
+
 </resources>

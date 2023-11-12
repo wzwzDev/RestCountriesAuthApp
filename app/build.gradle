@@ -50,6 +50,11 @@ dependencies {
     implementation 'com.google.android.material:material:1.10.0'
     implementation 'com.hbb20:ccp:2.7.0'
 
+
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofit2Version"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofit2Version"
+    implementation "com.google.code.gson:gson:$rootProject.gsonVersion"
+    implementation 'org.glassfish:javax.annotation:3.1.1'
     // OTP PIN View Design
     // Updated PIN View Dependency
     implementation 'io.github.chaosleung:pinview:1.4.4'
