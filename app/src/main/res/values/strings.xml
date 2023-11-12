@@ -1,10 +1,10 @@
 <resources>
     <!--  Todo: Basic + Splash Screen Strings  -->
 
-    <string name="app_name">City Guide</string>
-    <string name="logo_name">Get A Way</string>
-    <string name="slogan_name">Everything your city holds!</string>
-    <string name="powered_by">Powered By Taimoor Sikander</string>
+    <string name="app_name">Countries Authentication</string>
+    <string name="logo_name">World Countries</string>
+    <string name="slogan_name">Countries Rest API</string>
+    <string name="powered_by">Powered By Wael Louati</string>
 
 
     <!--  Todo: Strings for On Boarding Screen  -->
@@ -70,8 +70,8 @@
 
     <!--  General Strings  -->
     <string name="sign_up">Sign Up</string>
-    <string name="retailer_heading">Grow\nYour Business</string>
-    <string name="retailer_tag_line">We will help you to grow your business using online services!</string>
+    <string name="retailer_heading">Authentication</string>
+    <string name="retailer_tag_line">Connect !</string>
     <string name="create_account">Create\nAccount</string>
     <string name="how_we_work">How we work?</string>
     <string name="remember_me">Remember Me</string>
@@ -105,9 +105,9 @@
     <string name="todo">TODO</string>
 
 
-    <string name="strError">No se ha recuperado ningún país</string>
-    <string name="btnDescripcion">Botón buscar</string>
-    <string name="tvPaís">País:</string>
-    <string name="hintPaís">Nombre del país</string>
+    <string name="strError">No Country Provided</string>
+    <string name="btnDescripcion">Search</string>
+    <string name="tvPaís">Country :</string>
+    <string name="hintPaís">Country Name :</string>
 
 </resources>
