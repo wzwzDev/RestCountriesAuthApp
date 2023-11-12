@@ -21,8 +21,7 @@
         <activity android:name=".CountriesAuth.Common.LoginSignup.SignUp" />
         <activity android:name=".CountriesAuth.Common.LoginSignup.Login" />
         <activity android:name=".CountriesAuth.Common.LoginSignup.RetailerStartUpScreen" />
-        <activity android:name=".CountriesAuth.User.AllCategories" />
-        <activity android:name=".CountriesAuth.Common.OnBoarding" />
+
         <activity android:name=".CountriesAuth.User.UserDashboard" />
 
 

@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.fem2_wael_louati.CountriesAuth.Common.LoginSignup.RetailerStartUpScreen;
 import com.example.fem2_wael_louati.R;
 import com.example.fem2_wael_louati.CountriesAuth.User.UserDashboard;
 
@@ -60,12 +61,12 @@ public class SplashScreen extends AppCompatActivity {
                     editor.putBoolean("firstTime", false);
                     editor.commit();
 
-                    Intent intent = new Intent(getApplicationContext(), OnBoarding.class);
+                    Intent intent = new Intent(getApplicationContext(), RetailerStartUpScreen.class);
                     startActivity(intent);
                     finish();
 
                 } else {
-                    Intent intent = new Intent(getApplicationContext(), UserDashboard.class);
+                    Intent intent = new Intent(getApplicationContext(), RetailerStartUpScreen.class);
                     startActivity(intent);
                     finish();
                 }
