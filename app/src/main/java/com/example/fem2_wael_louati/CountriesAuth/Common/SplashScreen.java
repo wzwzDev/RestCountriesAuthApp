@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.fem2_wael_louati.R;
 import com.example.fem2_wael_louati.CountriesAuth.User.UserDashboard;
-import com.google.firebase.firestore.auth.User;
+
 
 public class SplashScreen extends AppCompatActivity {
 
