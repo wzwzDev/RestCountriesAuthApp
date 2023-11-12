@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077146474504",
+    "project_id": "countries-authentication",
+    "storage_bucket": "countries-authentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077146474504:android:cdc519a2bac3ca172159bd",
+        "android_client_info": {
+          "package_name": "com.example.fem2_wael_louati"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGbSp6F4YgPA2-cF0L9uYz0uxy6ORyxik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
