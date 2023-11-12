@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".CountriesAuth.Common.CountriesActivity"
-            android:exported="false" />
+        <activity android:name=".CountriesAuth.Common.CountriesActivity" />
         <activity android:name=".CountriesAuth.LocationOwner.RetailerDashboard" />
         <activity android:name=".CountriesAuth.Common.LoginSignup.ForgetPasswordSuccessMessage" />
         <activity android:name=".CountriesAuth.Common.LoginSignup.SetNewPassword" />
@@ -26,6 +24,8 @@
         <activity android:name=".CountriesAuth.User.AllCategories" />
         <activity android:name=".CountriesAuth.Common.OnBoarding" />
         <activity android:name=".CountriesAuth.User.UserDashboard" />
+
+
         <activity
             android:name=".CountriesAuth.Common.SplashScreen"
             android:exported="true">
