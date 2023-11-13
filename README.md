@@ -19,6 +19,43 @@ Clone the project
 )
 ```
 
+## Usage/Examples
+
+```CountriesAuth.Common.Databases.SessionManager 
+ 
+   public SessionManager(Context _context, String sessionName) {
+        context = _context;
+        usersSession = context.getSharedPreferences(sessionName, Context.MODE_PRIVATE);
+        editor = usersSession.edit();
+    }
+ 
+
+
+```CountriesAuth.Common.LoginSignUp.verifyOTP
+
+    private void sendVerificationCodeToUser(String phoneNo) {
+        // [START start_phone_auth]
+        PhoneAuthOptions options =
+                PhoneAuthOptions.newBuilder(mAuth)
+                        .setPhoneNumber(phoneNo)       // Phone number to verify
+                        .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
+                        .setActivity(this)                 // Activity (for callback binding)
+                        .setCallbacks(mCallbacks)          // OnVerificationStateChangedCallbacks
+                        .build();
+        PhoneAuthProvider.verifyPhoneNumber(options);
+        // [END start_phone_auth]
+    }
+
+```CountriesAuth.Common.CountryActivity
+Retrieve All Countries From the API (restcountries.com)
+
+```
+
+```CountriesAuth.Common.SplashScreen(Main Activity)
+
+
+```
+
 ## Screenshots
 
 
