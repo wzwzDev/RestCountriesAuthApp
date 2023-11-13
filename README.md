@@ -17,8 +17,9 @@ Clone the project
 
 ## Screenshots
 
-![Users](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/676fb326-890d-4f58-9903-4d718c63b547)![Database](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/f103660e-4778-421c-981e-215927c92e52)
-://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/8bf4cec8-06f4-4e30-aaf4-0e4cd717ca6a)
 
-![Project-settings](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/e8399f48-16b4-4065-9842-75356aab7b38)
-![Authentication](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/4ca18df1-1344-44f9-806e-18f00f32adb9)
+![Users](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/01d48123-aeef-4e06-8ba2-adf7f6d164f0)
+![Signin-method](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/6a9b4fd0-a6d3-4899-8c18-9e8f5a162577)
+![Project-settings](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/d509e5eb-a327-43fb-91b2-6c19d167221b)
+![Authentication](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/95075bff-a7b8-496f-89e0-6e0f3cf2627c)
+![Database](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/527d24c4-0be7-47d7-98fb-cb04d59144fe)
