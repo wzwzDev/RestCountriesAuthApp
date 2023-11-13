@@ -28,6 +28,22 @@ Clone the project
         usersSession = context.getSharedPreferences(sessionName, Context.MODE_PRIVATE);
         editor = usersSession.edit();
     }
+
+    public void createLoginSession(String fullName, String username, String email, String phoneNo, String password, String age, String gender) {
+
+        editor.putBoolean(IS_LOGIN, true);
+
+        editor.putString(KEY_FULLNAME, fullName);
+        editor.putString(KEY_USERNAME, username);
+        editor.putString(KEY_EMAIL, email);
+        editor.putString(KEY_PHONENUMBER, phoneNo);
+        editor.putString(KEY_PASSWORD, password);
+        editor.putString(KEY_DATE, age);
+        editor.putString(KEY_GENDER, gender);
+
+        editor.commit();
+    }
+
  
 
 
