@@ -47,6 +47,7 @@ Clone the project
     }
 
 ```CountriesAuth.Common.CountryActivity
+
 Retrieve All Countries From the API (restcountries.com)
 
 ```
