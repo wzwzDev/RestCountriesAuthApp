@@ -7,7 +7,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.fem2_wael_louati.CountriesAuth.Common.CountriesActivity;
 import com.example.fem2_wael_louati.CountriesAuth.Common.CountryActivity;
 import com.example.fem2_wael_louati.CountriesAuth.Common.LoginSignup.RetailerStartUpScreen;
 import com.example.fem2_wael_louati.CountriesAuth.Databases.SessionManager;

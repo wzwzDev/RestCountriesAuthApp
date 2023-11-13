@@ -12,7 +12,6 @@
         <activity
             android:name=".CountriesAuth.Common.CountryActivity"
             android:exported="false" />
-        <activity android:name=".CountriesAuth.Common.CountriesActivity" />
         <activity android:name=".CountriesAuth.LocationOwner.RetailerDashboard" />
         <activity android:name=".CountriesAuth.Common.LoginSignup.ForgetPasswordSuccessMessage" />
         <activity android:name=".CountriesAuth.Common.LoginSignup.SetNewPassword" />

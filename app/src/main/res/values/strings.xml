@@ -71,9 +71,9 @@
     <!--  General Strings  -->
     <string name="sign_up">Sign Up</string>
     <string name="retailer_heading">Authentication</string>
-    <string name="retailer_tag_line">Connect !</string>
+    <string name="retailer_tag_line">SignUp/Login</string>
     <string name="create_account">Create\nAccount</string>
-    <string name="how_we_work">How we work?</string>
+    <string name="how_we_work">Retrieve Rest Countries!</string>
     <string name="remember_me">Remember Me</string>
     <string name="forget_password">Forget Password</string>
 
