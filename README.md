@@ -1,4 +1,3 @@
-![Signin-method](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/e6e94997-3b14-421d-931b-dcfe48458b35)
 # Project Title
 
 FEM2
