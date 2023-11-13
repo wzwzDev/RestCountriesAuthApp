@@ -9,6 +9,16 @@ Clone the project
 ```bash
   git clone https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication.git
 ```
+
+## API Reference (restcountries.com)
+
+#### Get all countries
+
+```[http
+  GET /api/items](https://restcountries.com/v3.1/all
+)
+```
+
 ## Screenshots
 
 
@@ -26,5 +36,5 @@ Clone the project
 # Authentication
 ![Authentication](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/95075bff-a7b8-496f-89e0-6e0f3cf2627c)
 
-# Database
+# Database (Room)
 ![Database](https://github.com/wzzzzwwzw/Rest-Countries-API-Authentication/assets/46055260/527d24c4-0be7-47d7-98fb-cb04d59144fe)
