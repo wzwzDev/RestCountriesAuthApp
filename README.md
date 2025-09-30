@@ -1,6 +1,6 @@
 # Project Title
 
-RestCountriesAuthApp
+RestCountries Auth & API App
 
 ## Run Locally
 
